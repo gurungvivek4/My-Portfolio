@@ -205,7 +205,7 @@
     </div>
     <br><br><br>
      <!-- Have any questions? Button -->
-     <div class="question-section">
+     <div class="question-section" style="display:inline-block;">
         <p><b>Have any questions?</b></p>
         <br>
         <a href="mailto:virguru01@gmail.com" style="text-decoration: none;  display: flex; align-items: center; justify-content: center;">
@@ -214,20 +214,28 @@
             </button>
         </a>
     </div>
-    <br><br>
+    <br><br><br>
     <p>Copyright &copy; 2025 All rights reserved | This template is made with &hearts; by <a href="#home" style="text-decoration: none; color: white">Vivek Gurung</a></p>
 </section>
 
+ <!--JavaScript for Hamburger Menu Behavior -->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-      const menu = document.querySelector(".hamburger-menu");
-      const navList = document.querySelector("nav ul");
-  
-      menu.addEventListener("click", function () {
-        navList.classList.toggle("show");
-      });
+        const menu = document.querySelector(".hamburger-menu");
+        const navList = document.querySelector("nav ul");
+        const navLinks = document.querySelectorAll("nav ul li a");
+
+        menu.addEventListener("click", function () {
+            navList.classList.toggle("show");
+        });
+        
+        navLinks.forEach(link => {
+            link.addEventListener("click", function () {
+                navList.classList.remove("show");
+            });
+        });
     });
-  </script>
+</script>
   
 </body>
 </html>
