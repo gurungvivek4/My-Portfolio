@@ -158,7 +158,7 @@ nav {
     .about-content {
         flex-direction: column;
         text-align: center;
-        gap: 30px;
+        gap: 0px;
     }
     .about-content img {
         width: 200px;
