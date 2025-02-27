@@ -25,6 +25,12 @@ header {
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 nav {
     display: flex;
     align-items: center;
@@ -55,13 +61,6 @@ nav {
 .nav-links li a:hover {
     color: #efc006;
     border-bottom: 3px solid #efc006;
-}
-
-.hamburger {
-    display: none;
-    font-size: 24px;
-    cursor: pointer;
-    color: white;
 }
 
 /* Home Section */
@@ -116,7 +115,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
 }
 
 .about-content {
@@ -232,7 +230,7 @@ nav {
     .hamburger {
         display: block;
     }
-
+    
     .nav-links {
         position: absolute;
         top: 60px;
