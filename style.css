@@ -154,7 +154,7 @@ nav {
 
 /* Responsive About */
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
     .about-content {
         flex-direction: column;
         text-align: center;
