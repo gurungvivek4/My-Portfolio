@@ -216,24 +216,7 @@
     <p>Copyright &copy; 2025 All rights reserved | This template is made with &hearts; by <a href="#home" style="text-decoration: none; color: white">Vivek Gurung</a></p>
 </section>
 
- <!-- JavaScript for Hamburger Menu Behavior -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const menu = document.querySelector(".hamburger-menu");
-        const navList = document.querySelector("nav ul");
-        const navLinks = document.querySelectorAll("nav ul li a");
-
-        menu.addEventListener("click", function () {
-            navList.classList.toggle("show");
-        });
-        
-        navLinks.forEach(link => {
-            link.addEventListener("click", function () {
-                navList.classList.remove("show");
-            });
-        });
-    });
-</script>
-  
+<script src="script.js"></script>
+    
 </body>
 </html>
