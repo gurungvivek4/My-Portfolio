@@ -170,7 +170,7 @@ nav {
 /* About Section */
 #about {
     padding: 50px 50px;
-    background: #222;
+    background: #000;
     color: white;
     display: flex;
     align-items: center;
@@ -236,7 +236,7 @@ nav {
 /* Resume Section */
 #resume {
     padding: 70px;
-    background: #222;
+    background: #000;
     text-align: center;
 }
 
@@ -259,7 +259,7 @@ nav {
 #skills {
     padding: 100px 50px;
     text-align: center;
-    background: #222;
+    background: #000;
 }
 
 #skills h2 {
@@ -316,7 +316,7 @@ nav {
 /* Education Section */
 #education {
     padding: 100px 50px;
-    background: #222;
+    background: #000;
     text-align: center;
 }
 
@@ -358,7 +358,7 @@ nav {
 #languages {
     padding: 100px 50px 200px 50px;
     text-align: center;
-    background: #222;
+    background: #000;
     color: white;
 }
 
@@ -389,7 +389,7 @@ nav {
 #projects {
     padding: 80px 50px;
     text-align: center;
-    background: #111;
+    background: #000;
 }
 
 #projects h2 {
@@ -409,10 +409,11 @@ nav {
 
 .project-card {
     background: #222;
+    border: 2px solid #444;
     border-radius: 10px;
     overflow: hidden;
     width: 300px;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 10px rgba(223, 222, 222, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -462,7 +463,7 @@ nav {
 
 @media(max-width: 1200px){
     .projects-container {
-        padding: 50px 5px 180px 5px;
+        padding: 50px 5px 100px 5px;
     }
 }
 
